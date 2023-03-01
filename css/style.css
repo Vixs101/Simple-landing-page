@@ -5,12 +5,13 @@
     margin:0;
 }
 
-/* White text throughout*/
 
 body{
     font-family: "lato", sans-serif;
     background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
+
+  
 
 /*making all link text black with no decorations*/
 a{
@@ -23,15 +24,8 @@ h1{
     font-weight: 600;
     margin:10px 0;
     line-height:1.2;
-    color: black;
 }
 
-h2{
-    font-size: 25px;
-    font-weight: 300;
-    margin: 10px 0;
-    line-height: 1.2;
-}
 
 p{
     font-size: 30px;
@@ -68,10 +62,9 @@ li{
 /* navbar h1: sets font size, reduces font weight , adds margin and line height*/
 .navbar h1{
     font-size: 50px;
-    font-weight: 300px;
+    font-weight: 250px;
     margin: 10px 0;
     line-height:1.2;
-    font-family: 'Sacramento', cursive;
     color: white;
 }
 
@@ -101,9 +94,8 @@ li{
     color: white;
 }
 .LE{
-    font-family: 'Sacramento', cursive;
-    font-size: 50px;
-    font-weight: 100px;
+    font-size: 30px;
+    font-weight: 70px;
     line-height:1.2;
 }
 .supporting-text, .little-info{
@@ -120,7 +112,7 @@ li{
 }
 /*adds a shadow below the image*/
 .showcase img{
-    box-shadow: 7px 7px 7px rgba(141, 82, 34, 0.2);
+    box-shadow: 7px 7px 7px rgba(245, 224, 206, 0.2);
     border-radius: 6px;
 }
 /*adds some padding on the form content*/
@@ -171,7 +163,7 @@ li{
 
 /*sytling all h3 with class title*/
 .title {
-    color:black;
+    color:rgb(51, 43, 43);
     font-size: 20px;
     text-align:left;
     padding-left: 10px;
@@ -180,7 +172,7 @@ li{
 
 /*styling the paragraphs with class name of text*/
 .text {
-    color: black;
+    color: rgb(51, 43, 43);
     font-size: 19px;
     width: 100%;
     padding: 10px;
@@ -283,11 +275,11 @@ footer {
     border-bottom: 2px solid #f8c9a2;
   }
 
-  /* making the site responsive using media queries*/
-  
+
+
   /* Tablets and Under */
 
-@media(max-width: 768px) {
+  @media(max-width: 768px) {
     .grid,
     .grid-3 {
       grid-template-columns: 1fr;
@@ -297,6 +289,7 @@ footer {
 .showcase {
     height: auto;
     text-align: center;
+    width: 100%;
   }
 
 /* This resets the width of the image container and adds margin space to the left */ 
@@ -338,13 +331,11 @@ footer {
       width:90px;
   }
 
-
   /* Changes the alignment. The logo title stays at the top, the nav links will be below it */
 
 .navbar .flex {
     flex-direction: column;
   }
-
 
 /* When hovered on, retain white color and change border to black */
 
@@ -352,7 +343,6 @@ footer {
     color: white;
     border-bottom: 2px solid black;
   }
-
 
 /* Set light purple background on nav links, make it a bit round and add some spacing */
 
@@ -362,7 +352,6 @@ footer {
     padding: 10px 0;
   }
 
-
 /* Align text to center */
 
   .showcase {
@@ -370,13 +359,11 @@ footer {
     text-align: center;
   }
 
-
 /* Reduce font size */
 
 .little-info {
     font-size: 13px;
   }
-
 
 /* Reduce image width */
 
@@ -388,7 +375,6 @@ footer {
   .stat {
     margin-bottom: 40px;
   }
-
 
 /* Move circle once again */
 
@@ -405,5 +391,4 @@ footer {
       width:90px;
   }
 }
-
 
